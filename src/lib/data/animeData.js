@@ -368,3 +368,72 @@ export let animeData = [
         url:''
     }
 ]
+
+export let goalsData = [
+    {
+        id:1,
+        name:'Learn Rubics Cubes',
+        status:'Completed',
+        levels:[{
+            name:'3X3 Rubics cube',
+            status:true,
+        },
+        {
+            name:'Mirror Cube',
+            status:false
+        }
+    ]
+    },
+    {
+        id:2,
+        name:'Skatebaording',
+        status:'Ongoing',
+        levels:[
+            {
+                name:'Ride Skateboard',
+                status:false,
+            },
+            {
+                name:'Kickfip',
+                staus:false
+            }
+        ]
+    },
+    {
+        id:3,
+        name:'Splits',
+        status:'Ongoing',
+        levels:[
+            {
+                name:'SlideSplit',
+                status:false
+            }
+        ]
+    },
+    {
+        id:4,
+        name:'Learn Butterfly knife',
+        status:'not started',
+        levels:[]
+    },
+    {
+        id:5,
+        name:'Learn chess',
+        status:'ongoing',
+        levels:[]
+    },
+    {
+        id:6,
+        name:'Cartwheels',
+        status:'Ongoing',
+        levels:[{
+            name:'Simple',
+            status:true
+        },
+        {
+            name:'One handed',
+            status:false
+        }
+    ]
+    }
+]
