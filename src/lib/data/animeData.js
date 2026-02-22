@@ -69,7 +69,7 @@ export let animeData = [
         genre:['Action'],
         status: 'Ongoing..',
         description:'',
-        url:''
+        url:'https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx172463-LnXqHzt74SJL.jpg'
     },
     {
         id:10,

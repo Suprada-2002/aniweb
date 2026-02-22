@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
     import {animeData} from '$lib/data/animeData'
 </script>
 
@@ -11,37 +11,22 @@
             <span>{data.status}</span>
         </div>
     {/each}
+</div> -->
+<script>
+  import Section from "$lib/assets/Section.svelte";
+  import { animeData } from "$lib/data/animeData";
+  // import { movieData } from "$lib/data/movieData";
+  // import { dramaData } from "$lib/data/dramaData";
+</script>
+
+<div class="min-h-screen bg-bg p-8">
+
+  <h1 class="text-4xl font-bold text-center text-accent mb-10">
+    🎬 My Watch Journal
+  </h1>
+
+  <Section title="Anime" items={animeData} />
+  <!-- <Section title="Movies" items={movieData} />
+  <Section title="Drama" items={dramaData} /> -->
+
 </div>
-
-<style>
-.anime-grid {
-  display: grid;
-  grid-template-columns: 1fr;   
-  gap: 1.25rem;      
-  max-width: 1400px; 
-  margin: 0 auto;         
-}
-
-.anime-card{
-    border: 1px solid black; 
-}
-
-.header{
- text-align: center;
-}
-
-/* tablet */
-@media (min-width: 768px) {
-  .anime-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-/* desktop */
-@media (min-width: 1024px) {
-  .anime-grid {
-    grid-template-columns: repeat(5, 1fr);
-  }
-}
-
-</style>
