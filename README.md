@@ -1,5 +1,3 @@
-
-```sh
 # create a new project in the current directory
 npx sv create
 
