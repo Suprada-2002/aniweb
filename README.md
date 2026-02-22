@@ -1,5 +1,3 @@
-# create a new project in the current directory
-npx sv create
 
 # create a new project in my-app
 npx sv create my-app
