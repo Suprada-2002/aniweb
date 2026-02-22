@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
 *{
-    font-family: "Inter",'sans-serif'
+    font-family: "Inter",'sans-serif',
+}
+
+:root {
+  --color-bg: #111018;
+  --color-card: #1b1826;
+  --color-primary: #a78bfa;
+  --color-secondary: #c4b5fd;
+  --color-text-main: #e4e4e7;
+  --color-text-muted: #a1a1aa;
+  --color-border: #2b2738;
+}
+/* Optional global styles */
+body {
+  background: radial-gradient(circle at top, var(--color-card), var(--color-bg));
+  color: var(--color-text-main);
+  font-family: 'Inter', sans-serif;
 }

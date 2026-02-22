@@ -19,7 +19,7 @@
   // import { dramaData } from "$lib/data/dramaData";
 </script>
 
-<div class="min-h-screen bg-bg p-8">
+<div class="container mx-auto min-h-screen bg-bg p-8">
 
   <h1 class="text-4xl font-bold text-center text-accent mb-10">
     🎬 My Watch Journal
