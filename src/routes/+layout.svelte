@@ -73,7 +73,8 @@
 
 {@render children()}
 <footer>
-	<div class="container text-center mx-auto border-t py-5">
+	<div class="container text-center mx-auto border-t py-5 flex flex-col gap-3">
 		<p>Copy @ Suprada Tripathy - { new Date().getFullYear()}</p>
+		<p>Photos for anime from: <a href="https://anilist.co" class="underline text-purple-300">Click here</a></p>
 	</div>
 </footer>
